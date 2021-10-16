@@ -1,0 +1,28 @@
+{
+  "name": "zipcode_management",
+  "version": "1.0.0",
+  "description": "StackSource project",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx concurrently \"nodemon src/server.js\" \"json-server ./data/zipcodes.json\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenengineer/Zipcode_Management.git"
+  },
+  "author": "Stephen Tchaou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenengineer/Zipcode_Management/issues"
+  },
+  "homepage": "https://github.com/stephenengineer/Zipcode_Management#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "concurrently": "^6.3.0",
+    "express": "^4.17.1",
+    "json-server": "^0.17.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
